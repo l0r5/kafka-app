@@ -1,4 +1,4 @@
-package ch.l0r5.kafkaapp;
+package ch.lars.kafka;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,8 +12,6 @@ public class KafkaApp {
 
     public static void main(String[] args) {
         SpringApplication.run(KafkaApp.class, args);
-
-        LOGGER.info("Hello World {}","test");
     }
 
 }
