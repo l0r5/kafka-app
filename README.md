@@ -2,7 +2,8 @@
 Demo Spring Boot Kafka App 
 
 ## Prerequisites
-- [Docker](https://www.docker.com/) needs to be installed
+- Install [Docker](https://www.docker.com/)
+- Install [Maven](https://maven.apache.org/) (does not need to be installed explicitly when using intelliJ)
 - Additional host entries need to be added in /etc/hosts:
 
     ```$ sudo nano /etc/hosts```
@@ -21,6 +22,8 @@ Demo Spring Boot Kafka App
     ```$ cd kafka-cluster```
     
     ```$ docker-compose up```
+- Build the app with Maven: 
+    ```$ mvn clean install```
 - Run the KafkaApp Spring Boot App
 
 ## Additional Info
